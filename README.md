@@ -10,6 +10,10 @@ The system:
 - Supports consistent go / nurture / disqualify decisions
 - Creates a repeatable qualification process independent of individual judgement
 
+This case study documents the design of a structured client intake and deal qualification system for a small automation consultancy operating in a mixed inbound and referral-led sales environment. The business faced increasing volume and variability in incoming opportunities, with leads differing significantly in urgency, commercial value, delivery complexity, and data sensitivity. Prior to this system, qualification decisions were made using informal judgement, scattered notes, and inconsistent criteria, resulting in time spent on low-quality opportunities and limited visibility into why certain leads were progressed, deprioritised, or rejected.
+
+The solution introduces a two-stage qualification framework combining a structured intake tracker with a weighted scoring model to support consistent, repeatable decision-making. Lead context, triggers, operational pain points, and current processes are captured upfront, then assessed against defined criteria including use-case fit, authority access, budget alignment, urgency, delivery complexity, and data or security risk. The scoring model produces clear decision outputs (progress, nurture, or disqualify), supported by documented rationale and review notes. Although implemented using lightweight tools for accessibility, the system mirrors enterprise CRM qualification logic and is designed to be directly transferable into platforms such as Salesforce, enabling scalable adoption as the business grows.
+
 ### Client Intake Tracker – Overview (Mock)
 
 High-level view of inbound leads, including company context, use case summary, trigger for engagement, current process, and expected impact if no change is made.
